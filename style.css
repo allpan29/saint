@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+#popcat {
+    cursor: pointer;
+    position: relative;
+}
+
+#clickCount {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
